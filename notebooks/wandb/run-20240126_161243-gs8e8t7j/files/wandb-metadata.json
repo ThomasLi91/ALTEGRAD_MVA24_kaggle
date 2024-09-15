@@ -1,0 +1,121 @@
+{
+    "os": "Linux-5.14.0-362.13.1.el9_3.x86_64-x86_64-with-glibc2.34",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-01-26T15:12:48.265232",
+    "startedAt": "2024-01-26T15:12:43.545941",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "kamiche.polytechnique.fr",
+    "username": "thomas.li",
+    "executable": "/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3750.7221875,
+        "min": 800.0,
+        "max": 5100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3011.555,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 3.990234375,
+            "used": 0.9562950134277344
+        }
+    },
+    "gpu": "NVIDIA RTX A5000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A5000",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.27811813354492
+    }
+}

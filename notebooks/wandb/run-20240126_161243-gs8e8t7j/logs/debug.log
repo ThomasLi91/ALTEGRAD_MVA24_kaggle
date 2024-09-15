@@ -1,0 +1,40 @@
+2024-01-26 16:12:43,555 INFO    MainThread:767509 [wandb_setup.py:_flush():76] Current SDK version is 0.16.2
+2024-01-26 16:12:43,555 INFO    MainThread:767509 [wandb_setup.py:_flush():76] Configure stats pid to 767509
+2024-01-26 16:12:43,555 INFO    MainThread:767509 [wandb_setup.py:_flush():76] Loading settings from /users/eleves-b/2020/thomas.li/.config/wandb/settings
+2024-01-26 16:12:43,555 INFO    MainThread:767509 [wandb_setup.py:_flush():76] Loading settings from /users/eleves-b/2020/thomas.li/MVA/ALTEGRAD/kaggle_challenge/notebooks/wandb/settings
+2024-01-26 16:12:43,556 INFO    MainThread:767509 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-26 16:12:43,556 INFO    MainThread:767509 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-26 16:12:43,556 INFO    MainThread:767509 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-01-26 16:12:43,556 INFO    MainThread:767509 [wandb_init.py:_log_setup():526] Logging user logs to /users/eleves-b/2020/thomas.li/MVA/ALTEGRAD/kaggle_challenge/notebooks/wandb/run-20240126_161243-gs8e8t7j/logs/debug.log
+2024-01-26 16:12:43,556 INFO    MainThread:767509 [wandb_init.py:_log_setup():527] Logging internal logs to /users/eleves-b/2020/thomas.li/MVA/ALTEGRAD/kaggle_challenge/notebooks/wandb/run-20240126_161243-gs8e8t7j/logs/debug-internal.log
+2024-01-26 16:12:43,556 INFO    MainThread:767509 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fddb58a9ca0>
+2024-01-26 16:12:43,557 INFO    MainThread:767509 [wandb_init.py:init():566] calling init triggers
+2024-01-26 16:12:43,557 INFO    MainThread:767509 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'classes': 10, 'kernels': [16, 32], 'batch_size': 128, 'learning_rate': 0.005, 'dataset': 'MNIST', 'architecture': 'CNN'}
+2024-01-26 16:12:43,557 INFO    MainThread:767509 [wandb_init.py:init():616] starting backend
+2024-01-26 16:12:43,557 INFO    MainThread:767509 [wandb_init.py:init():620] setting up manager
+2024-01-26 16:12:43,558 INFO    MainThread:767509 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-01-26 16:12:43,561 INFO    MainThread:767509 [wandb_init.py:init():628] backend started and connected
+2024-01-26 16:12:43,564 INFO    MainThread:767509 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2024-01-26 16:12:43,564 INFO    MainThread:767509 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-01-26 16:12:43,564 INFO    MainThread:767509 [wandb_init.py:init():720] updated telemetry
+2024-01-26 16:12:43,576 INFO    MainThread:767509 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-01-26 16:12:48,155 INFO    MainThread:767509 [wandb_run.py:_on_init():2254] communicating current version
+2024-01-26 16:12:48,227 INFO    MainThread:767509 [wandb_run.py:_on_init():2263] got version response 
+2024-01-26 16:12:48,227 INFO    MainThread:767509 [wandb_init.py:init():804] starting run threads in backend
+2024-01-26 16:12:48,286 INFO    MainThread:767509 [wandb_run.py:_console_start():2233] atexit reg
+2024-01-26 16:12:48,286 INFO    MainThread:767509 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-01-26 16:12:48,286 INFO    MainThread:767509 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-01-26 16:12:48,286 INFO    MainThread:767509 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-01-26 16:12:48,287 INFO    MainThread:767509 [wandb_init.py:init():847] run started, returning control to user process
+2024-01-26 16:12:54,821 INFO    MainThread:767509 [wandb_watch.py:watch():51] Watching
+2024-01-26 16:12:59,924 INFO    MainThread:767509 [wandb_run.py:_finish():1962] finishing run qwertyr2/pytorch-demo/gs8e8t7j
+2024-01-26 16:12:59,925 ERROR   MainThread:767509 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-01-26 16:12:59,925 INFO    MainThread:767509 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-26 16:12:59,925 INFO    MainThread:767509 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-01-26 16:12:59,925 INFO    MainThread:767509 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2024-01-26 16:12:59,926 INFO    MainThread:767509 [wandb_run.py:_restore():2185] restore
+2024-01-26 16:12:59,926 INFO    MainThread:767509 [wandb_run.py:_restore():2191] restore done
+2024-01-26 16:13:04,478 INFO    MainThread:767509 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-01-26 16:13:04,479 INFO    MainThread:767509 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-01-26 16:13:04,483 INFO    MainThread:767509 [wandb_run.py:_footer_sync_info():3816] logging synced files

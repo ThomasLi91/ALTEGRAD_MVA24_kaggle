@@ -1,0 +1,52 @@
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./MNIST/raw/train-images-idx3-ubyte.gz
+100%|██████████| 9912422/9912422 [00:00<00:00, 13876346.01it/s]
+Extracting ./MNIST/raw/train-images-idx3-ubyte.gz to ./MNIST/raw
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./MNIST/raw/train-labels-idx1-ubyte.gz
+Extracting ./MNIST/raw/train-labels-idx1-ubyte.gz to ./MNIST/raw
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+100%|██████████| 28881/28881 [00:00<00:00, 375502.78it/s]
+100%|██████████| 1648877/1648877 [00:00<00:00, 3521042.79it/s]
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./MNIST/raw/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST/raw/t10k-images-idx3-ubyte.gz to ./MNIST/raw
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./MNIST/raw/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST/raw/t10k-labels-idx1-ubyte.gz to ./MNIST/raw
+100%|██████████| 4542/4542 [00:00<00:00, 4584964.81it/s]
+  0%|          | 0/5 [00:00<?, ?it/s]
+ConvNet(
+  (layer1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc): Linear(in_features=1568, out_features=10, bias=True)
+  0%|          | 0/5 [00:00<?, ?it/s]/users/eleves-b/2020/thomas.li/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py:456: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+Loss after 03072 examples: 0.380
+Loss after 06272 examples: 0.374
+Loss after 09472 examples: 0.127
+Loss after 12640 examples: 0.142
+Loss after 15840 examples: 0.058
+Loss after 19040 examples: 0.071
+Loss after 22240 examples: 0.122
+Loss after 25408 examples: 0.039
+ 80%|████████  | 4/5 [00:04<00:00,  1.22it/s]
+Loss after 28608 examples: 0.090
+Loss after 31808 examples: 0.052
+Loss after 35008 examples: 0.092
+Loss after 38176 examples: 0.040
+Loss after 41376 examples: 0.049
+Loss after 44576 examples: 0.050
+Loss after 47776 examples: 0.049
+Loss after 50944 examples: 0.035
+Loss after 54144 examples: 0.021
+Loss after 57344 examples: 0.133
+
+100%|██████████| 5/5 [00:04<00:00,  1.02it/s]
